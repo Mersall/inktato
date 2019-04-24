@@ -1,0 +1,38 @@
+.no-gutters {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+  .text {
+    margin-top: 95px;
+    padding: 0px 45px;
+    img {
+      margin-bottom: 20px;
+    }
+
+    p {
+      text-align: left;
+      font-weight: 500;
+      margin-bottom: 3px;
+      &:first-of-type {
+        margin-left: 25px;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  .About{
+    position: absolute;
+    top: 43%;
+    left: 40%;
+    border: 6px solid black;
+    padding: 13px 44px;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    @include MQ(576px) {
+      font-size: 25px;
+
+    }
+     }

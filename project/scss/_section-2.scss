@@ -1,0 +1,22 @@
+
+.second-cover{
+    background-image: url(../img/third-cover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    .quote{
+        color: white;
+        font-size: 20px;
+        width: 64%;
+        margin: auto;
+        font-family: cursive;
+        padding-top: 100px;
+        line-height: 1.8;
+        @include MQ(576px) {
+            width: 90%
+        }
+        span{
+            display: inline-block;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+/*sass-framwork*/
+body{
+    height:5000px;
+    .no-gutters {
+        padding: 0;
+      }
+      .img-width{
+        width: 100%;
+      }
+    
+}
+@mixin MQ($w) {
+    @media screen and(max-width:$w) {
+        @content;
+    }
+}
+/*sass-framwork*/
+
+@import "header";
+@import "section-1";
+@import "section-2";
+@import "section-3";
+@import "section-4";
+@import "section-5";
+@import "contact";
+@import "footer";
+

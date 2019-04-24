@@ -1,0 +1,27 @@
+.footer{
+    background: #aeaeae;
+    padding: 82px 0px 15px 0px;
+    .nav {
+        ul {
+          margin: auto;
+          li {
+            .nav-link {
+              margin-top: 30px;
+              text-transform: capitalize;
+              color: rgb(0, 0, 0);
+              &:hover:after {
+                border-bottom: 2px solid black;
+                display: block;
+                width: 100%;
+                content: "";
+              }
+    
+            }
+          }
+        }
+      }
+      span{
+        padding-top: 45px;
+        display: inline-block;
+    }
+}
